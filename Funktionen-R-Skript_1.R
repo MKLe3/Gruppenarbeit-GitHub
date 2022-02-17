@@ -67,11 +67,10 @@ met_dich <- function(x,y){
 
 met_dich(test$met, test$dich)
 
-
-=======
+#Visualisierung der Variablen
 # f)
 visual <- function(x){
-  barplot(table(x),xlab = "Studienfach", ylab = "Häufigket", 
+  barplot(table(x),xlab = "Studienfach", ylab = "Häufigket",  #Balkendiagramm erstellen mit den Werten
        main = "Visualisierung des Studienfachs")
 }
 visual(x)
